@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+/* custome css start */
+html { -webkit-font-smoothing: antialiased; }
+* { outline: none; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box }
+html, body, address, blockquote, div, dl, form, h1, h2, h3, h4, h5, h6, ol, p, pre, table, ul, dd, dt, li, tbody, td, tfoot, th, thead, tr, button, del, ins, map, object, a, abbr, acronym, b, bdo, big, br, cite, code, dfn, em, i, img, kbd, q, samp, small, span, strong, sub, sup, tt, var, legend, fieldset, p, hr, iframe { margin: 0; padding: 0; border: none; }
+a, input, select, textarea { outline: none; margin: 0; padding: 0; }
+h1, h2, h3, h4, h5, h6 { font-weight: normal; }
+a { text-decoration: none; color: #333333; }
+a:focus, :focus, input:focus { outline: none; }
+img { max-width: 100%; vertical-align: middle; border: none; outline: none; max-height: 100%; border-radius: 0; }
+.trans{transition: 500ms all; -webkit-transition: 500ms all; -ms-transition: 500ms all; -o-transition: 500ms all; -moz-transition: 500ms all;}
+body{font-family: 'Open Sans', sans-serif;}
+/* custome css start */
+
+/* resume section css start */
+#resume{padding-bottom: 100px;}
+#resume h1{padding: 25px 0; text-align: center; text-transform: uppercase; font-weight: 700; }
+#resume #resum_form{display: inline-block; vertical-align: top; width: 100%; background: rgb(25, 143, 211);; padding: 50px; border-radius: 15px;}
+#resume #resum_form .form-group > label{color: #fff;}
+#resume #resum_form .form-group{position: relative;}
+#resume #resum_form .form-group .error{position: absolute; font-size: 12px; line-height: 12px; padding: 5px 10px; background:red; color: #fff; display: inline-block; vertical-align: top; right: 0; top: 0; z-index: 1; display: none; }
+#resume #resum_form .form-group .error:after{position: absolute; content: ""; width: 10px; height: 10px; display: inline-block; vertical-align: top; left: -5px; top: 0px; bottom: 0;
+    background: red; margin: auto; transform: rotate(45deg);}
+/* resume section css start */
+
+
+/* resume view section css start */
+#resume_view{padding-bottom: 100px;}
+#resume_view h1{padding: 25px 0; text-align: center; text-transform: uppercase; font-weight: 700; }
+#resume_view #resum_form_view{display: inline-block; vertical-align: top; width: 100%; background: rgb(25, 143, 211);; padding: 50px; border-radius: 15px;}
+#resume_view #resum_form_view .form-group > label{color: #fff;}
+#resume_view #resum_form_view .form-group{position: relative;}
+#resume_view #resum_form_view .form-group .error{position: absolute; font-size: 12px; line-height: 12px; padding: 5px 10px; background:red; color: #fff; display: inline-block; vertical-align: top; right: 0; top: 0; z-index: 1; display: none; }
+#resume_view #resum_form_view .form-group .error:after{position: absolute; content: ""; width: 10px; height: 10px; display: inline-block; vertical-align: top; left: -5px; top: 0px; bottom: 0;
+    background: red; margin: auto; transform: rotate(45deg);}
+.detail_label{color: #000 !important; font-weight: 700;}
+#profileimg_view{width: 150px; height: 150px; overflow: hidden; text-align: center; display: inline-block; vertical-align: top; border: 1px solid #fff; object-fit: cover;}
+/* resume view section css start */
+
+
+
+
+
